@@ -1,9 +1,11 @@
 import React from "react";
+import NavApp from "../components/NavApp";
 
 const About = () => {
   return (
     <div>
-      <h1>About</h1>
+      <NavApp />
+      <h1> This is About Page</h1>
     </div>
   );
 };
