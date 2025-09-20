@@ -6,6 +6,9 @@ const ExternalCss = () => {
       <div className="main">
         <h1>This is Enternal Css</h1>
       </div>
+      <div className="second">
+        <h1>This is Child Css</h1>
+      </div>
     </div>
   );
 };
