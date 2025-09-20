@@ -1,12 +1,15 @@
-import React from 'react'
+import React from "react";
 
 const InternalCss = () => {
+  const parent = {
+    color: "red",
+    backgroundColor: "gray",
+  };
   return (
     <div>
-    <h1 className='parent'>This is internal css page</h1>
-
+      <h1 style={parent}>This is internal css page</h1>
     </div>
-  )
-}
+  );
+};
 
-export default InternalCss
+export default InternalCss;
