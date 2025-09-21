@@ -1,10 +1,9 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react'
 
-const NavBarDesign = () => {
+const Sidebar = () => {
   return (
     <div>
-      <div className="navbar">
+        <div className="sidebar">
        <nav>
           <ul>
             <li>
@@ -20,6 +19,7 @@ const NavBarDesign = () => {
         </nav>
       </div>
     </div>
-  );
-};
-export default NavBarDesign;
+  )
+}
+
+export default Sidebar
