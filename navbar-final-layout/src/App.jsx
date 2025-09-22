@@ -16,7 +16,16 @@ const App = () => {
       <BrowserRouter>
         <div className="container-fluid p-0">
           <header className="bg-secondary text-white p-4 d-flex justify-content-between align-items-center fw-bold fs-1">
-            <a className="navbar-brand">Navbar</a>
+            <a className="navbar-brand">
+              <img
+                src="/public/images.jpg"
+                alt=""
+                width="60"
+                height="70"
+                class="d-inline-block align-text-top"
+              ></img>
+              Navbar
+            </a>
             <form className="d-flex">
               <input
                 className="form-control me-2"
